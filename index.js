@@ -15,8 +15,9 @@ bot.on("message", (message) => {
         switch (args[0].toLowerCase()) {
             case "help":
             message.channel.send(new Discord.RichEmbed()
-
-            .setDescription = "To kno da wae, you must do ~showdawae. That will show you da wae to you're different chat sections! REMINDER: This discord bot only works with chat channels ATM and will soon be compatible with voice channels"
+                                 .setDescription("To kno da wae, you must do ~showdawae." + 
+                                                 "That will show you da wae to you're different chat sections! REMINDER: " + 
+                                                 "This discord bot only works with chat channels ATM and will soon be compatible with voice channels");
         )
             
             break;
@@ -28,7 +29,7 @@ bot.on("message", (message) => {
         
         
 });
-const TOKEN = "NDAxNTMxNjYzOTkxMTc3MjI2.DTzhmA.6pJXFZPLylVfg7C4d6IL-ypkpCE"
+const TOKEN = "***"
 bot.login(TOKEN);
 
 function buildEmbed(message){
