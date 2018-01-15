@@ -21,6 +21,7 @@ bot.on("message", (message) => {
             
             break;
             case "showdawae":
+            message.channel.send("I will show you da wae! spit spit spit")
             message.channel.send(buildEmbed(message));
             break;
         }
